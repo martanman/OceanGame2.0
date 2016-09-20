@@ -1,0 +1,43 @@
+ body{
+    height: 100%;
+      width: 100%;
+     background-color: white;
+    overflow-x: hidden;
+    font: 300 1.5em/1.38 'Open Sans';
+     color: rgb(255, 255, 255);
+ position: static;
+       overflow-y: hidden;
+                
+  }
+   .banner{
+ position: absolute;
+  left: 0%;
+height: 10%;
+background-color: #69D2E7;
+  top: 0%;
+   width: 100%;
+   border-bottom: 8px solid #A7DBD8;
+  }
+ .game{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 11%;
+    background: url('../images/gamebackground.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0%;
+}
+.fish{
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    background: url('../images/fish.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 5%;
+}
+.game:focus{
+    border: 5px solid rgb(0, 0, 0);
+}

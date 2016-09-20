@@ -1,0 +1,99 @@
+body{
+  height: 100%;
+  background: url('../images/background.gif');
+  background-size: cover;
+    background-attachment: fixed;
+  background-position: left top;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.form{
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 25%;
+    left: 24%;
+    margin: auto;
+    background-color: #69D2E7;
+    border: 5px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 50px;
+}
+.form p{
+    left: 10%;
+}
+input{
+    height: 50px;
+    width: 500px;
+    display: block;
+    border-radius: 100px;
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+}
+.username{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.txt7{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.password{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.submit{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.txt6{
+    position: absolute;
+    top: 37%;
+}
+.banner{
+    height: 10%;
+    position: absolute;
+    width: 100%;
+    background-color: #FA6900;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.arrow{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+     background: url('../images/arrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    left: 0%;
+}
+.dd{
+    position: absolute;
+    left: 4%;
+}
+input:hover{
+    border: 5px solid #FA6900;
+}
+input:focus{
+    border: 5px solid #FA6900;
+}

@@ -1,0 +1,262 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    position: static;
+}
+.profilename{
+    position: absolute;
+    left: 3%;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+}
+.banner{
+    position: absolute;
+    left: 0%;
+    height: 10%;
+    background-color: #69D2E7;
+    top: 0%;
+    width: 100%;
+    border-bottom: 8px solid #A7DBD8;
+}
+.logout{
+    position: absolute;
+    right: 20%;
+    font-size: 16px;
+    right: 10%;
+    top: 30%;
+}
+.userinf{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: 0%;
+    top: 0%;
+    border-right: 8px solid #A7DBD8;
+}
+.leaderboard{
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    left: 1%;
+    background-color: #fa6901;
+    bottom: 10%;
+    box-shadow: 5px 5px 5px #c3c3c3;
+    overflow-y: scroll;
+}
+.points{
+    position: absolute;
+    right: 3%;
+    top: 7%;
+}
+.spread1{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    background-color: #f38630;
+    top: 20%;
+    box-shadow: 5px 5px 5px #e0e4cc;
+}
+.first{
+    position: absolute;
+    top: 20%;
+}
+.name{
+    left: 40%;
+    top: 30%;
+    width: 30%;
+}
+.des1{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    left: 40%;
+}
+.leaderboardtxt{
+    position: absolute;
+    top: 0%;
+    color: white;
+    left: 5%;
+    font-size: 30px;
+}
+.first{
+    position: absolute;
+    left: 2%;
+}
+.spread2{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    background-color: #f38630;
+    top: 45%;
+    box-shadow: 5px 5px 5px #e0e4cc;
+}
+.snd{
+     position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.des2{
+     position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    left: 40%;
+}
+.spread3{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    background-color: #f38630;
+    top: 70%;
+    box-shadow: 5px 5px 5px #e0e4cc;
+}
+.thirs{
+     position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.des3{
+     position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    left: 40%;
+    
+}
+.spread4{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    background-color: #f38630;
+    top: 95%;
+    box-shadow: 5px 5px 5px #e0e4cc;
+}
+.fourth{
+     position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.des4{
+     position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    left: 40%;
+    
+}
+.spread5{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    background-color: #f38630;
+    top: 120%;
+    box-shadow: 5px 5px 5px #e0e4cc;
+}
+.fifth{
+     position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.des5{
+     position: absolute;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    left: 40%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border: 100px none #000000;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #808080;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 100px none #000000;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.numPoints{
+    position: absolute;
+    right: 5%;
+    font-weight: bold;
+    color: white;
+}
+.games{
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    right: 5%;
+    background-color: #fa6901;
+    bottom: 4%;
+    box-shadow: 5px 5px 5px #c3c3c3; 
+    overflow-y: scroll;
+}
+.gamesTxt{
+    position: absolute;
+    font-size: 30px;
+    left: 3%;
+}
+#de{
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    background-color: #f38630;
+    box-shadow: 5px 5px 5px #e0e4cc;
+    text-align: center;
+}
+#de:hover{
+    background-color: #e0e4cc;
+}
+.gme1{
+    top: 20%;
+    left: 5%;
+}
+.gme2{
+    top: 55%;
+    left: 5%;
+}
+.gme3{
+    top: 90%;
+    left: 5%;
+}
+.dd3{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+a{
+ color: white;
+}
