@@ -11,6 +11,7 @@ $username = $_POST['username'];
 $password = $_POST['password']; 
     $password = md5($password);
     $password = crypt($password, $username);
+
 if (!isset $_SERVER['dbName']){
 $_SERVER['dbName'] = $db;
 }
