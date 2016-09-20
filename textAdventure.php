@@ -9,7 +9,7 @@ foreach ($points as $value){
 }
 $value = $value + 40;
 
-pg_query("INSERT INTO users (`points`) VALUES('".$value."')");
+pg_query($db, "INSERT INTO users (`points`) VALUES('".$value."')");
 
 
 
