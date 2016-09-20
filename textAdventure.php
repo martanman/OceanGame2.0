@@ -1,3 +1,8 @@
+<?php
+
+$db = $_SERVER['dbName'];
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
