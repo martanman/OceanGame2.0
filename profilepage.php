@@ -159,7 +159,7 @@ if(!isset($_SESSION['username'])){
         </div>
         <div class="games">
             <p class="gamesTxt">Games</p>
-         <a href="textAdventure.html"><div class="gme1" id="de"><p class="dd3">Human Impact(Choose your own adventure)</p></div></a>
+         <a href="textAdventure.php"><div class="gme1" id="de"><p class="dd3">Human Impact(Choose your own adventure)</p></div></a>
             <div class="gme2" id="de"><p class="dd3">The food chain(Eating game)</p></div>
         <div class="gme3" id="de"><p class="dd3">The climate change Quiz.</p></div>
         
