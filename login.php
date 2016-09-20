@@ -11,8 +11,9 @@ $username = $_POST['username'];
 $password = $_POST['password']; 
     $password = md5($password);
     $password = crypt($password, $username);
-if (!isset $_SERVER['dbnamw'])
+if (!isset $_SERVER['dbName']){
 $_SERVER['dbName'] = $db;
+}
 
 $sql = pg_query($db, "SELECT * FROM users WHERE username = '".$username."' and password = '".$password."'");
 $count= pg_num_rows($sql);
@@ -33,12 +34,10 @@ if($count == 1){
     if(!isset($_SESSION['password'])){
         $_SESSION['password'] = $password;
     }
-    if(!isset ($_SESSION['NullBool'])){
-        $_SESSION['NullBool'] = False;
-    }
-    header("Location: profilepage.php");
+   
+ header("Location: profilepage.php");
 }
 else {
-    echo "wrong username or password";
+    header("Location: index.html");
 }
 ?>
